@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg,rgb(13, 201, 13),rgb(20, 224, 231));
+
+}
+header{
+    text-align: center;
+    background: linear-gradient(120deg,rgb(17, 191, 221),rgb(20, 231, 143));
+    padding: 10px 10px 10px;
+}
+form{
+    width:100%;
+     position:fixed;
+     bottom:-50px;
+     text-align:center;
+     z-index:9999;
+     height: 100px;
+     align-items: center;
+     background-color: rgb(27, 167, 51);
+}
+input{
+    width: 30%;
+    height: 20%;
+    margin-top: 15px;
+}
+button{
+    width: 100px;
+    height: 25px;
+    background: rgb(0, 247, 255);
+    border: none;
+}
+.message{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: tomato;
+    width: 50%;
+    border-radius: 16px;
+}
+.user{
+    background-color: rgb(19, 204, 211); 
+     text-align: right;
+    margin-right: 20px;
+    margin-left: 48%;
+   
+}
+.user> h2,h3{
+    margin-right: 20px;
+}
+.guest{
+    background-color:rgb(13, 201, 13);
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 48%;
+}
+.guest> h2,h3{
+    margin-left: 20px;
+}
+.message:last-child{
+    margin-bottom: 60px;
+}
