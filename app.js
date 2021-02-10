@@ -20,18 +20,8 @@ const Button = document.querySelector('#sendBtn');
 
 
 
-if (localStorage.getItem('name') === null) {
-    const NameAsk = prompt('Please put you name here');
-
-
-    if (NameAsk != '') {
-        localStorage.setItem('name', NameAsk);
-    } else if (localStorage.getItem('name') == null || localStorage.getItem('name') === 'null') {
-        const NameAsk = prompt('Please put you name here');
-    }
-} else {
-    console.log('Done');
-}
+const NameAsk = prompt('Please put you name here');
+localStorage.setItem('name', NameAsk);
 
 
 
